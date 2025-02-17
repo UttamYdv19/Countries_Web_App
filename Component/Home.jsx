@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import SearchBar from "./SearchBar";
 import SelectMenu from "./SelectMenu";
 import ContriesContainer from "./ContriesContainer";
-import useTheme from "../hooks/useTheme";
+import {useTheme} from "../hooks/useTheme";
 
 export default function Home() {
   const [query, setQuery] = useState("");

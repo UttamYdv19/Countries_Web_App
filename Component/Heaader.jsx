@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { ThemeContext } from "../Contexts/ThemeContext";
-import useTheme from "../hooks/useTheme";
+import {useTheme} from "../hooks/useTheme";
 
 export default function Heaader() {
   const [IsDark, setIsDark] = useTheme();
