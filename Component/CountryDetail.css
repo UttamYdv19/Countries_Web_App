@@ -46,6 +46,12 @@
   border-radius: 4px;
   font-size: 14px;
 }
+.border-country-name-list
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
 @media (max-width: 940px) {
   .country-details {
     flex-direction: column;

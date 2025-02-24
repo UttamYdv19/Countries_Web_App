@@ -145,11 +145,14 @@ export default function CountryDetailscopy() {
                     <div className="border-country">
                       <p>
                         <b>Border Countries:</b>&nbsp;
-                        {CountryData.borders.map((border) => (
+                     <div className="border-country-name-list">
+                      {CountryData.borders.map((border) => (
                           <Link key={border} to={`/${border}`}>
                             {border}
                           </Link>
                         ))}
+                      </div>
+                     
                       </p>
                     </div>
                   )}
